@@ -1,9 +1,10 @@
 def prime?(num)
-  (2..Math.sqrt(num)).each { |i|
-    if num % i == 0 && i < num
-      return false
-    end
-    }
-    true
-    end
+  if num < 0 or num == 0 or num == 2
+    return false
+  else
+    (2..num-1).to_a.all? do |
+
+
+
+  end 
 end
