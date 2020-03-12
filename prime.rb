@@ -4,8 +4,8 @@ def prime?(num)
   else
     (2..num-1).to_a.all? do |int|
       num % int != 0
-      true
     end
+    true
   end
 end
 
