@@ -9,4 +9,4 @@ def prime?(num)
 end
 
 
-puts prime?
+puts prime?(105557)
